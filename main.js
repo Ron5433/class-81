@@ -7,7 +7,7 @@ ctx.lineWidth=2;
 ctx.arc(200,200,40,0,2*Math.PI);
 ctx.stroke();
 
-canvas.addEventListener("mouseDown",my_mousedown);
+canvas.addEventListener("mousedown",my_mousedown);
 function my_mousedown(e){
 color=document.getElementById("color").Value;
 mouse_x=e.clientX-canvas.offsetLeft;
